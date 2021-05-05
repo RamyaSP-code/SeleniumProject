@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Functional Testing(failed)">
+    <classes>
+      <class name="caseStudyGoogle.Googlepage">
+        <methods>
+          <include name="Google"/>
+          <include name="TearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- caseStudyGoogle.Googlepage -->
+      <class name="caseStudyGoogle.google">
+        <methods>
+          <include name="TearDown"/>
+          <include name="Search"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- caseStudyGoogle.google -->
+    </classes>
+  </test> <!-- Functional Testing(failed) -->
+</suite> <!-- Failed suite [AutomationTest] -->
